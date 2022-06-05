@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+    background-color: #1fc4da;
+    margin: 0;
+}
+
+/* To hide scroll bar */
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
+/* Side Navigation Bar */
+.nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #e9ebed;
+    overflow-x: hidden;
+    transition: .5s;
+    padding-top: 60px;
+}
+.nav a{
+    padding: 28px 8px 8px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Copperplate Gothic;
+    color: #006092;
+    display: block;
+    transition: .3s;
+}
+
+/* Bottom Logo */
+.nav a:hover{
+    color: #1fc4da;
+}
+.nav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.closebtn img{
+    height: 50px; 
+    transform: scaleX(-1)
+}
+#gtv{
+    position: absolute;
+    height: 140px;
+    bottom: 40px;
+    margin-left: -26px;
+}
+.openNav{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 30px;
+    cursor:pointer;
+    font-family: Copperplate Gothic;
+}
+.openNav img{
+    position:absolute; 
+    height: 110px; 
+    margin-left: 5px; 
+    margin-top: -30px;
+}
+.text{
+    font-size: 20px;
+    font-weight: bolder;
+}
+@media screen and (max-height:450px) {
+    .nav{padding-top: 15px;}
+    .nav a{font-size: 18px;}
+}
+
+/* Searchbox */
+.input{
+    position: absolute;
+    background: #e9ebed;
+    color: #006092;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 237px;
+    width: 58%;
+    outline: none;
+    font-family: "Comic Sans MS", "Comic Sans";
+    border: none;
+}
+.input::placeholder{
+    color: #006092;
+}
+
+/* Search Button */
+.search{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1069px;
+    height: 43px;
+    width: 50px;
+    border: none;
+    background-color: #e9ebed;
+}
+
+/* Search button icon */
+.fa-search{
+    color: #006092;
+}
+.fa-search:hover{
+    transform: rotate(360deg);
+    transition: all .8s;
+    cursor: pointer;
+}
+/* Sign In Button */
+.signin button{
+    position: absolute;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 1151px;
+}
+.signin a{
+    text-decoration: none;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+#signin{
+    background-color: #006092;
+    border: 2px solid #e9ebed;
+}
+#signin:hover{
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    margin-top: 10px;
+    box-shadow: 0 8px 8px 0 #e9ebed;
+    transition: all .8s;
+}
+
+/* Sign Up Button */
+.signup button{
+    position: absolute;
+    padding: 12px 20px;
+    margin-top: 20px;
+    margin-left: 1246px;
+}
+.signup a{
+    text-decoration: none;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+#signup{
+    background-color: #006092;
+    border: 2px solid #e9ebed;
+}
+#signup:hover{
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    margin-top: 10px;
+    box-shadow: 0 8px 8px 0 #e9ebed;
+    transition: all .8s;
+}
+
+/* Rotating tagline */
+.rw-wrapper{
+	width: 80%;
+	position: absolute;
+	padding: 10px;
+    margin-top: 200px;
+}
+.rw-sentence{
+	margin-left: 40px;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+}
+.rw-sentence span{
+	color: #006092;
+	white-space: nowrap;
+    font-family: Copperplate Gothic;
+	font-size: 60px;
+	font-weight: 500;
+    text-shadow: 2px 3px #e9ebed;
+}
+.rw-words{
+	display: inline;
+	text-indent: 10px;
+}
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+	color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+    text-shadow: 2px 3px #006092;
+}
+.rw-words-1 span{
+	animation: rotateWordsFirst 9s linear infinite 0s;
+}
+.rw-words span:nth-child(2) { 
+	animation-delay: 3s; 
+	color: #e9ebed;
+}
+.rw-words span:nth-child(3) { 
+	animation-delay: 6s; 
+	color: #e9ebed;	
+}
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    8% { opacity: 1; height: 60px; }
+    19% { opacity: 1; height: 60px; }
+	25% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+/* White Container */
+.box{
+    position: absolute;
+    height: 380px;
+    width: 400px;
+    background: #e9ebed;
+    box-shadow: 20px 20px 35px #006092;
+    grid-column: 2;
+    margin-left: 916px;
+    margin-top: 160px;
+}
+
+/* Beach illustration */
+.main img{
+    overflow: hidden;
+    position: absolute;
+    height: 400px;
+    width: 390px;
+    margin-left: 920px;
+    margin-top: 170px;
+}
+
