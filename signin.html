@@ -11,6 +11,24 @@
     <title>Sign In | Globetrotters Voyage</title>
 </head>
 <body>
-    <form action=""></form>
+    <form class="signin" action="/action_page.php" method="post">
+        <img src="Images/background.png" alt="Mountains" class="background">
+        <img src="Images/GV_Final_WHITE_CIrcle_withoutBG.png" alt="Globetrotters Voyage" class="logo">
+        <div class="container">
+            <label for="uname"><b>Username/Email ID</b></label>
+            <input type="text" placeholder="Enter Username/Email ID" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Sign In</button><br>
+            <label>
+                <br>
+                <input type="checkbox" checked="checked" name="remember" class="tick"><span class="check">Remember me</span>
+            </label>
+            <span class="psw">Forgot <a href="#">Password?</a></span><br><br><br><br>
+            <span class="signup">New to Globetrotters Voyage?&nbsp;<button type="submit"><a href="signup.html">Sign Up</a></button></span>
+        </div>
+    </form>
 </body>
 </html>
