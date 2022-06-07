@@ -35,25 +35,29 @@ body{
         border-radius: 4px;
 }
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email], input[type=number]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
     box-sizing: border-box;
     font-family: "Comic Sans MS", "Comic Sans";
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
 }
 
 label{
     font-family: Copperplate Gothic;
 }
 
+input:focus{
+    outline: none;
+  }
+
 /* Set a style for all buttons */
 button {
     background-color: #04AA6D;
-    color: white;
-    background-color: #006092;
+    color: #e9ebed;
     border: 2px solid #e9ebed;
     border-radius: 3px;
     font-family: Copperplate Gothic;

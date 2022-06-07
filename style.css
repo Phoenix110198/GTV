@@ -116,6 +116,7 @@ body{
     transform: rotate(360deg);
     transition: all .8s;
     cursor: pointer;
+    color: #1fc4da;
 }
 
 /* Sign In Button */
@@ -142,6 +143,9 @@ body{
     box-shadow: 0 8px 8px 0 #e9ebed;
     transition: all .8s;
 }
+#signin a:hover{
+    color: #006092;
+}
 
 /* Sign Up Button */
 .signup button{
@@ -166,6 +170,9 @@ body{
     margin-top: 10px;
     box-shadow: 0 8px 8px 0 #e9ebed;
     transition: all .8s;
+}
+#signup a:hover{
+    color: #006092;
 }
 
 /* Rotating tagline */

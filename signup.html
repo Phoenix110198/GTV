@@ -11,6 +11,28 @@
     <title>Sign Up | Globetrotters Voyage</title>
 </head>
 <body>
-    
+    <form class="signin" action="/action_page.php" method="post">
+        <img src="Images/background.png" alt="Mountains" class="background">
+        <img src="Images/GV_Final_WHITE_CIrcle_withoutBG.png" alt="Globetrotters Voyage" class="logo">
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="email"><b>Email ID</b></label>
+            <input type="email" placeholder="Enter Email ID" name="email" required>
+
+            <label for="contact"><b>Contact Number</b></label>
+            <input type="number" placeholder="Enter Your Contact Number" name="contact" required>
+
+            <label for="location"><b>location</b></label>
+            <input type="text" placeholder="Enter Your Location" name="location" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Sign Up</button><br>
+            <span class="signup">Already a User?&nbsp;&nbsp;<button type="submit"><a href="signin.html">Sign In</a></button></span>
+        </div>
+    </form>
 </body>
 </html>

@@ -1,0 +1,96 @@
+body{
+    background-color: #006092;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* Logo on Image */
+.logo{
+    position: absolute;
+    height: 180px;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+
+/* Side Image */
+.background{
+    position: absolute;
+    height: 550px;
+    margin-left: 347px;
+    border-radius: 3px;
+}
+
+/* Sign In Background Container */
+.container{
+        display: block;
+        margin-left: 48%;
+        margin-right: auto;
+        margin-top: 4%;
+        padding: 20px;
+        left: 50%;
+        height: 510px;
+        width: 320px;
+        background: #e9ebed;
+        box-shadow: 20px 20px 35px #006092;
+        border-radius: 4px;
+}
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans";
+    border: none; 
+    border-width: 0; 
+    box-shadow: none;
+}
+
+label{
+    font-family: Copperplate Gothic;
+}
+
+input:focus{
+    outline: none;
+  }
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: #e9ebed;
+    border: 2px solid #e9ebed;
+    border-radius: 3px;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}  
+  button:hover {
+    opacity: 0.8;
+}
+
+/* Sign Up Button */
+.signup{
+    padding: 12px 20px;
+    margin-left: -19px;
+    font-family: Copperplate Gothic;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.signup a{
+    text-decoration: none;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+.signup button{
+    background-color: #006092;
+    border-radius: 3px;
+}
+.signup:hover button{
+    opacity: 0.8;
+}
+
