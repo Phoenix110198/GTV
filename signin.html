@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="signin.css">
-    <script src="index.js"></script>
+    <script src="signin.js"></script>
     <link rel="icon" href="Images/GTV_BLACK_MAN.png" type="image/icon">
     <title>Sign In | Globetrotters Voyage</title>
 </head>
 <body>
-    <form class="signin" action="/action_page.php" method="post">
+    <form class="signin" id="signinform">
         <img src="Images/background.png" alt="Mountains" class="background">
         <img src="Images/GV_Final_WHITE_CIrcle_withoutBG.png" alt="Globetrotters Voyage" class="logo">
         <div class="container">
@@ -22,13 +22,13 @@
             <input type="password" placeholder="Enter Password" name="psw" required>
 
             <button type="submit">Sign In</button><br>
+        </form>
             <label>
                 <br>
                 <input type="checkbox" checked="checked" name="remember" class="tick"><span class="check">Remember me</span>
             </label>
             <span class="psw">Forgot <a href="#">Password?</a></span><br><br><br><br>
-            <span class="signup">New to Globetrotters Voyage?&nbsp;<button type="submit"><a href="signup.html">Sign Up</a></button></span>
+            <span class="signup">New to Globetrotters Voyage?&nbsp;<button type="submit"><a href="signup.html">Sign Up</button></span></a>
         </div>
-    </form>
 </body>
 </html>

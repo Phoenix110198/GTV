@@ -35,7 +35,7 @@ body{
         border-radius: 4px;
 }
 /* Full-width input fields */
-input[type=text], input[type=password], input[type=email], input[type=number]{
+input[type=text], input[type=password], input[type=email], input[type=tel]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -44,6 +44,15 @@ input[type=text], input[type=password], input[type=email], input[type=number]{
     border: none; 
     border-width: 0; 
     box-shadow: none;
+}
+input[type=tel]{
+    width: 76%;
+}
+#code{
+    font-family: "Comic Sans MS", "Comic Sans";
+    padding: 9px;
+    color: gray;
+    border: none;
 }
 
 label{

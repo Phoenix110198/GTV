@@ -125,6 +125,13 @@ body{
     padding: 12px 20px;
     margin-top: 20px;
     margin-left: 1151px;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+.signin button:hover{
+    color: #006092;
+    cursor: pointer;
 }
 .signin a{
     text-decoration: none;
@@ -153,6 +160,13 @@ body{
     padding: 12px 20px;
     margin-top: 20px;
     margin-left: 1246px;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+.signup button:hover{
+    color: #006092;
+    cursor: pointer;
 }
 .signup a{
     text-decoration: none;
@@ -187,6 +201,17 @@ body{
 	text-align: left;
 	text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
 }
+#company{
+    position: absolute;
+    color: #006092;
+	white-space: nowrap;
+    font-family: Copperplate Gothic;
+	font-size: 75px;
+	font-weight: 500;
+    text-shadow: 2px 3px #e9ebed;
+    margin-top: 200px;
+    margin-left: 50px;
+}
 .rw-sentence span{
 	color: #006092;
 	white-space: nowrap;
@@ -208,6 +233,7 @@ body{
     font-family: Copperplate Gothic;
     font-weight: bolder;
     text-shadow: 2px 3px #006092;
+    margin-top: 140px;
 }
 .rw-words-1 span{
 	animation: rotateWordsFirst 9s linear infinite 0s;
@@ -249,4 +275,43 @@ body{
     margin-left: 920px;
     margin-top: 170px;
 }
+  
+/* Go to top icon styling used in home and gallery page */  
+/* .top{
+    background-color: rgb(121, 62, 62);
+    border-radius: 5px;
+    bottom: 50px;
+    color: white;
+    font-size: 22px;
+    height: 25px;
+    margin-left: 1270px;
+    position: fixed;                               
+    text-align: center;
+    width: 40px;
+}   */
 
+/* Footer */
+footer{
+    background-color: #e9ebed;
+    bottom: 0;
+    color: #006092;
+    font-size: 18px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    font-family: "Comic Sans MS", "Comic Sans";
+    opacity: 0.9;
+} 
+footer a{
+    color: #006092;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+.social{
+    float: right;
+    padding-right: 90px;
+}
