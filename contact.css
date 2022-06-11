@@ -1,0 +1,155 @@
+body{
+    overflow: hidden;
+    margin: 0;
+    background-color: #1fc4da;
+}
+
+/* Navigation Bar */
+.nav-header {
+    background-color: #e9ebed;
+    display: flex;
+    height: 50px;
+    padding-left: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}  
+.nav-header>.nav-title {
+    font-family: Copperplate Gothic;
+    font-size: 25px;
+    padding-top: 5px;
+} 
+.nav-header>.nav-title>a {
+    color: #006092;
+    text-decoration: none;
+}  
+.nav-links>ul>li {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 50px;
+    padding-top: 3px;
+    font-family: Copperplate Gothic;
+} 
+.nav-links>ul>li>a {
+    color: #006092;
+    text-decoration: none;
+}
+.navItems::after {
+    border-bottom: solid 3px #006092;
+    content: "";
+    display: block;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}  
+.navItems:hover::after {
+    transform: scaleX(1);
+}
+
+.nav-title>a>img{
+    position: absolute;
+    height: 80px;
+    margin-top: -13px;
+    margin-left: -38px;
+}
+
+/* Sign In Button */
+.signin button{
+    position: absolute;
+    padding: 12px 20px;
+    margin-top: 4px;
+    margin-left: 1100px;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+.signin button:hover{
+    color: #006092;
+    cursor: pointer;
+}
+.signin a{
+    text-decoration: none;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+#signin{
+    background-color: #006092;
+    border: 2px solid #e9ebed;
+}
+#signin:hover{
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    box-shadow: 0 8px 8px 0 #006092;
+    transition: all .8s;
+}
+#signin a:hover{
+    color: #006092;
+}
+
+/* Sign Up Button */
+.signup button{
+    position: absolute;
+    padding: 12px 20px;
+    margin-top: 4px;
+    margin-left: 1195px;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+.signup button:hover{
+    color: #006092;
+    cursor: pointer;
+}
+.signup a{
+    text-decoration: none;
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+}
+#signup{
+    background-color: #006092;
+    border: 2px solid #e9ebed;
+}
+#signup:hover{
+    background-color: lightgreen;
+    border: 2px solid lightgreen;
+    box-shadow: 0 8px 8px 0 #006092;
+    transition: all .8s;
+}
+#signup a:hover{
+    color: #006092;
+}
+
+/* Contact Details */
+#contact{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 60px;
+}
+
+/* Footer */
+footer{
+    background-color: #e9ebed;
+    bottom: 0;
+    color: #006092;
+    font-size: 18px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    font-family: "Comic Sans MS", "Comic Sans";
+    opacity: 0.9;
+} 
+footer a{
+    color: #006092;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+.social{
+    float: right;
+    padding-right: 90px;
+}
