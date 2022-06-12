@@ -1,12 +1,12 @@
 body{
     overflow: hidden;
     margin: 0;
-    background-color: #1fc4da;
+    background-color: #e9ebed;
 }
 
 /* Navigation Bar */
 .nav-header {
-    background-color: #e9ebed;
+    background-color: #006092;
     display: flex;
     height: 50px;
     padding-left: 50px;
@@ -20,7 +20,7 @@ body{
     padding-top: 5px;
 } 
 .nav-header>.nav-title>a {
-    color: #006092;
+    color: #e9ebed;
     text-decoration: none;
 }  
 .nav-links>ul>li {
@@ -32,11 +32,11 @@ body{
     font-family: Copperplate Gothic;
 } 
 .nav-links>ul>li>a {
-    color: #006092;
+    color: #e9ebed;
     text-decoration: none;
 }
 .navItems::after {
-    border-bottom: solid 3px #006092;
+    border-bottom: solid 3px #e9ebed;
     content: "";
     display: block;
     transform: scaleX(0);
@@ -59,7 +59,7 @@ body{
     padding: 12px 20px;
     margin-top: 4px;
     margin-left: 1100px;
-    color: #e9ebed;
+    color: #006092;
     font-family: Copperplate Gothic;
     font-weight: bolder;
 }
@@ -74,8 +74,8 @@ body{
     font-weight: bolder;
 }
 #signin{
-    background-color: #006092;
-    border: 2px solid #e9ebed;
+    background-color: #e9ebed;
+    border: 2px solid #1fc4da;
 }
 #signin:hover{
     background-color: lightgreen;
@@ -93,7 +93,7 @@ body{
     padding: 12px 20px;
     margin-top: 4px;
     margin-left: 1195px;
-    color: #e9ebed;
+    color: #006092;
     font-family: Copperplate Gothic;
     font-weight: bolder;
 }
@@ -108,8 +108,8 @@ body{
     font-weight: bolder;
 }
 #signup{
-    background-color: #006092;
-    border: 2px solid #e9ebed;
+    background-color: #e9ebed;
+    border: 2px solid #1fc4da;
 }
 #signup:hover{
     background-color: lightgreen;
@@ -122,17 +122,62 @@ body{
 }
 
 /* Contact Details */
-#contact{
+.contact{
     position: absolute;
-    margin-left: 750px;
+    margin-left: 950px;
     margin-top: 60px;
+}
+.contact a{
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: #e9ebed;
+}
+.contact span{
+    color: #e9ebed;
+    font-family: "Comic Sans MS","Comic Sans";
+}
+.contact i{
+    color: #1fc4da;
+}
+.contact h3, u{
+    font-family: Copperplate Gothic;
+    color: #1fc4da;
+}
+.contact li{
+    color: #e9ebed;
+    font-family: "Comic Sans MS", "Comic Sans";
+    list-style: none;
+    margin-left: -40px;
+}
+.contact h4{
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: -41px;
+    border: 3px solid #1fc4da;
+    padding: 4px;
+}
+.contact h4 u {
+    color: #e9ebed;
+}
+
+/* White Container */
+.box{
+    position: absolute;
+    height: 480px;
+    width: 400px;
+    background: #006092;
+    box-shadow: 20px 20px 35px #006092;
+    margin-top: 70px;
+    margin-left: 900px;
 }
 
 /* Footer */
 footer{
-    background-color: #e9ebed;
+    background-color: #006092;
     bottom: 0;
-    color: #006092;
+    color: #e9ebed;
     font-size: 18px;
     height: 30px;
     padding-left: 20px;
@@ -141,10 +186,9 @@ footer{
     position: fixed;
     width: 100%;
     font-family: "Comic Sans MS", "Comic Sans";
-    opacity: 0.9;
 } 
 footer a{
-    color: #006092;
+    color: #e9ebed;
     font-size: 16px;
     text-decoration: none;
     font-family: "Comic Sans MS", "Comic Sans";
