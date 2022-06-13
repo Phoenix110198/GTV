@@ -121,23 +121,15 @@ body{
     color: #006092;
 }
 
-/* Enquiry Container */
-.container{
-    position: absolute;
-    height: 480px;
-    width: 640px;
-    background: #1fc4da;
-    box-shadow: 10px 10px 15px #71d5e2;
-    margin-top: 70px;
-    margin-left: 136px;
-    border-radius: 4px;
-}
-
 /* Enquire Us */
 .enquire-main {
     position: absolute;
-    margin-top: 60px;
-    margin-left: 144px;
+    margin-top: 73px;
+    margin-left: 190px;
+    background-color: #1fc4da;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px #71d5e2;
 }
   
 .enquire-content {
@@ -289,7 +281,7 @@ input[type="checkbox"] {
     font-weight: bolder;
     padding: 14px 20px;
     margin-top: -44px;
-    margin-left: 434px;
+    margin-left: 429px;
     border: none;
     cursor: pointer;
     width: 28%;
@@ -307,8 +299,13 @@ input[type="checkbox"] {
 /* Contact Details */
 .contact{
     position: absolute;
-    margin-left: 900px;
-    margin-top: 60px;
+    margin-left: 860px;
+    margin-top: 73px;
+    background-color: #006092;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 10px 10px 15px #2487bd;
+    height: 460px;
 }
 .contact a{
     text-decoration: none;
@@ -334,28 +331,17 @@ input[type="checkbox"] {
     margin-left: -40px;
 }
 .contact h4{
+    position: absolute;
     color: #e9ebed;
     font-family: Copperplate Gothic;
-    font-size: 15px;
-    margin-top: 40px;
-    margin-left: -61px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left: -6px;
     border: 3px solid #1fc4da;
     padding: 4px;
 }
 .contact h4 u {
     color: #e9ebed;
-}
-
-/* White Container */
-.box{
-    position: absolute;
-    height: 480px;
-    width: 400px;
-    background: #006092;
-    box-shadow: 10px 10px 15px #2487bd;
-    margin-top: 70px;
-    margin-left: 830px;
-    border-radius: 4px;
 }
 
 /* Footer */
