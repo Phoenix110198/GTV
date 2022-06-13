@@ -121,10 +121,193 @@ body{
     color: #006092;
 }
 
+/* Enquiry Container */
+.container{
+    position: absolute;
+    height: 480px;
+    width: 640px;
+    background: #1fc4da;
+    box-shadow: 10px 10px 15px #71d5e2;
+    margin-top: 70px;
+    margin-left: 136px;
+    border-radius: 4px;
+}
+
+/* Enquire Us */
+.enquire-main {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 144px;
+}
+  
+.enquire-content {
+    font-family: Copperplate Gothic;
+    font-size: 15px;
+}
+  
+.enquire-head u{
+    color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-size: 20px;
+    margin-left: 10px;
+}
+input{
+    color: #006092;
+}
+input:focus{
+    outline: none;
+}
+label {
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 13px;
+    color: #006092;
+}
+
+/* Name & Email ID Field */
+#name, #email{
+    font-family: "Comic Sans MS","Comic Sans";
+    width: 42%;
+    border:none;
+    color: #006092;
+}
+
+/* Phone Number Field */
+#code{
+    font-family: "Comic Sans MS", "Comic Sans";
+    padding: 9px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: gray;
+    border: none;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+#phone{
+    border: none;
+    width: 177px;
+}
+
+/* Destination Field */
+.destination{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -228px;
+    width: 269px;
+}
+#citi{
+    width: 100%;
+    border: none;
+    font-family: "Comic Sans Ms","Comic Sans";
+}
+input[list] {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 13px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Travellers Field*/
+.number{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -152px;
+}
+#adult, #children{
+    border: none;
+    width: 115px;
+    font-family: "Comic Sans Ms","Comic Sans";
+}
+
+/* Dates Field */
+.dates{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -75px;
+}
+#from, #to{
+    border: none;
+    width: 117px;
+    font-family: "Comic Sans Ms","Comic Sans";
+    color: gray;
+}
+
+/* Query Field */
+#queries{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: "Comic Sans Ms","Comic Sans";
+    width: 591px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#queries:focus{
+    outline: none;
+}
+input:required {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    border: none;
+    font-size: 13px;
+    height: 30px;
+    margin: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* Notification Field */
+#tick1, #tick2{
+    font-family: Copperplate Gothic;
+    font-size: 14px;
+    font-weight: 600;
+    color: #006092;
+}
+input[type="checkbox"] {
+    border: none;
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 20px;
+}
+
+/* Submit Button */
+.enquire-main button {
+    position: absolute;
+    background-color: #e9ebed;
+    color: #006092;
+    border: 2px solid #e9ebed;
+    border-radius: 3px;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin-top: -44px;
+    margin-left: 434px;
+    border: none;
+    cursor: pointer;
+    width: 28%;
+}  
+.enquire-main button:hover {
+    opacity: 0.8;
+}
+  
+/* Success page styling */
+.success-main {
+    margin-top: 250px;
+    text-align: center;
+}
+
 /* Contact Details */
 .contact{
     position: absolute;
-    margin-left: 950px;
+    margin-left: 900px;
     margin-top: 60px;
 }
 .contact a{
@@ -135,6 +318,7 @@ body{
 .contact span{
     color: #e9ebed;
     font-family: "Comic Sans MS","Comic Sans";
+    
 }
 .contact i{
     color: #1fc4da;
@@ -154,7 +338,7 @@ body{
     font-family: Copperplate Gothic;
     font-size: 15px;
     margin-top: 40px;
-    margin-left: -41px;
+    margin-left: -61px;
     border: 3px solid #1fc4da;
     padding: 4px;
 }
@@ -168,9 +352,10 @@ body{
     height: 480px;
     width: 400px;
     background: #006092;
-    box-shadow: 20px 20px 35px #006092;
+    box-shadow: 10px 10px 15px #2487bd;
     margin-top: 70px;
-    margin-left: 900px;
+    margin-left: 830px;
+    border-radius: 4px;
 }
 
 /* Footer */

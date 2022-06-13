@@ -45,14 +45,12 @@ input[type=text], input[type=password], input[type=email], input[type=number]{
     border-width: 0; 
     box-shadow: none;
 }
-
 label{
     font-family: Copperplate Gothic;
 }
-
 input:focus{
     outline: none;
-  }
+}
 
 /* Set a style for all buttons */
 button {
