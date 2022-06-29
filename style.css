@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
-    background-color: #1fc4da;
+    background-image: url('/Images/back.jfif');
     margin: 0;
+    background-repeat: no-repeat;
 }
 
 /* To hide scroll bar */
@@ -260,7 +261,7 @@ body{
     height: 380px;
     width: 400px;
     background: #e9ebed;
-    box-shadow: 20px 20px 35px #006092;
+    box-shadow: 5px 5px 8px #006092;
     grid-column: 2;
     margin-left: 916px;
     margin-top: 160px;
@@ -299,23 +300,9 @@ body{
     color: #006092;
 }
 
-/* Go to top icon styling used in home and gallery page */  
-/* .top{
-    background-color: rgb(121, 62, 62);
-    border-radius: 5px;
-    bottom: 50px;
-    color: white;
-    font-size: 22px;
-    height: 25px;
-    margin-left: 1270px;
-    position: fixed;                               
-    text-align: center;
-    width: 40px;
-}   */
-
 /* Footer */
 footer{
-    background-color: #e9ebed;
+    background-color: rgba(233, 235, 237, 0.4);
     bottom: 0;
     color: #006092;
     font-size: 18px;
@@ -326,7 +313,6 @@ footer{
     position: fixed;
     width: 100%;
     font-family: "Comic Sans MS", "Comic Sans";
-    opacity: 0.9;
 } 
 footer a{
     color: #006092;
@@ -337,4 +323,7 @@ footer a{
 .social{
     float: right;
     padding-right: 90px;
+}
+footer:hover{
+    color: #006092;
 }
