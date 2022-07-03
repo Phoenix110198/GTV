@@ -121,52 +121,179 @@ body{
     color: #006092;
 }
 
-/* Contact Details */
-.contact{
+/* Enquire Us */
+.enquire-main {
     position: absolute;
-    margin-left: 860px;
     margin-top: 73px;
-    background-color: #006092;
-    padding: 20px;
+    margin-left: 190px;
+    background-color: #1fc4da;
+    padding: 10px;
     border-radius: 4px;
-    box-shadow: 10px 10px 15px #2487bd;
-    height: 460px;
+    box-shadow: 10px 10px 15px #71d5e2;
 }
-.contact a{
-    text-decoration: none;
-    font-family: "Comic Sans MS", "Comic Sans";
-    color: #e9ebed;
-}
-.contact span{
-    color: #e9ebed;
-    font-family: "Comic Sans MS","Comic Sans";
-    
-}
-.contact i{
-    color: #1fc4da;
-}
-.contact h3, u{
+  
+.enquire-content {
     font-family: Copperplate Gothic;
-    color: #1fc4da;
+    font-size: 15px;
 }
-.contact li{
+  
+.enquire-head u{
     color: #e9ebed;
+    font-family: Copperplate Gothic;
+    font-size: 20px;
+    margin-left: 10px;
+}
+input{
+    color: #006092;
+}
+input:focus{
+    outline: none;
+}
+label {
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 13px;
+    color: #006092;
+}
+
+/* Name & Email ID Field */
+#name, #email{
+    font-family: "Comic Sans MS","Comic Sans";
+    width: 42%;
+    border:none;
+    color: #006092;
+}
+
+/* Phone Number Field */
+#code{
     font-family: "Comic Sans MS", "Comic Sans";
-    list-style: none;
-    margin-left: -40px;
+    padding: 9px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: gray;
+    border: none;
+    margin-left: 10px;
+    border-radius: 2px;
 }
-.contact h4{
+#phone{
+    border: none;
+    width: 177px;
+}
+
+/* Destination Field */
+.destination{
     position: absolute;
-    color: #e9ebed;
+    margin-left: 320px;
+    margin-top: -228px;
+    width: 269px;
+}
+#citi{
+    width: 100%;
+    border: none;
+    font-family: "Comic Sans Ms","Comic Sans";
+}
+input[list] {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 13px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Travellers Field*/
+.number{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -152px;
+}
+#adult, #children{
+    border: none;
+    width: 115px;
+    font-family: "Comic Sans Ms","Comic Sans";
+}
+
+/* Dates Field */
+.dates{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -75px;
+}
+#from, #to{
+    border: none;
+    width: 117px;
+    font-family: "Comic Sans Ms","Comic Sans";
+    color: gray;
+}
+
+/* Query Field */
+#queries{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: "Comic Sans Ms","Comic Sans";
+    width: 591px;
+    border-radius: 3px;
+    font-size: 13px;
+    margin: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#queries:focus{
+    outline: none;
+}
+input:required {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    border: none;
+    font-size: 13px;
+    height: 30px;
+    margin: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* Notification Field */
+#tick1, #tick2{
     font-family: Copperplate Gothic;
     font-size: 14px;
-    margin-top: 8px;
-    margin-left: -6px;
-    border: 3px solid #1fc4da;
-    padding: 4px;
+    font-weight: 600;
+    color: #006092;
 }
-.contact h4 u {
-    color: #e9ebed;
+input[type="checkbox"] {
+    border: none;
+    height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 20px;
+}
+
+/* Submit Button */
+.enquire-main button {
+    position: absolute;
+    background-color: #e9ebed;
+    color: #006092;
+    border: 2px solid #e9ebed;
+    border-radius: 3px;
+    font-family: Copperplate Gothic;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin-top: -44px;
+    margin-left: 429px;
+    border: none;
+    cursor: pointer;
+    width: 28%;
+}  
+.enquire-main button:hover {
+    opacity: 0.8;
+}
+  
+/* Success page styling */
+.success-main {
+    margin-top: 250px;
+    text-align: center;
 }
 
 /* Footer */
