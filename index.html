@@ -11,39 +11,31 @@
     <title>Globetrotters Voyage</title>
 </head>
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
-    <div class="fixed-bg">
-        <div class="nav-title">
+  <i class="fa fa-toggle-on fa-2x"></i><p id="scroll">Scroll</p>
+    <button onclick="topFunction()" id="myBtn" title="Scroll to top"><i class="fa fa-arrow-up"></i></button>
+        <div class="header">
             <a href="index.html"><img src="/Images/GV_Final_WHITE_CIrcle_withoutBG.png" alt="Globetrotters Voyage"></a>
           </div>
-    <header class="nav-header">
-        <nav class="nav-links">
             <ul>
-              <li class="navItems"><a href="#about">About Us</a></li>
-              <li class="navItems"><a href="#domestic">Domestic</a></li>
-              <li class="navItems"><a href="#international">International</a></li>
-              <li class="navItems"><a href="#gallery">Gallery</a></li>
-              <li class="navItems"><a href="#career">Careers</a></li>
-              <li class="navItems"><a href="contact.html">Contact Us</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#domestic">Domestic</a></li>
+              <li><a href="#international">International</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#career">Careers</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              
+              <!-- Sign In Sign Up -->
+              <a href="signup.html"><button id="signup">Sign Up</button></a>
+              <a href="signin.html"><button id="signin">Sign In</button></a>
             </ul>
-          </nav>
-        <div class="searchbox">
-            <form class="form">
-                <input type="text" class="input" id="type" placeholder="Search..."/>
-                <button class="search" id="search" ><i class="fa fa-search fa-2x"></i></button>
-            </form>
-        </div>
-       <div class="signin">
-            <a href="signin.html"><button id="signin">Sign In</button></a>
-        </div>
-        <div class="signup">
-            <a href="signup.html"><button id="signup">Sign Up</button></a>
-        </div>
-      </header>
-      <hr>
-      <h1>Dream. Discover. Explore.</h1>
-       <img src="/Images/boat.png" alt="Boat" id="boat"> 
+      <div class="searchbox">
+        <form class="form">
+            <input type="text" class="input" id="type" placeholder="Search..."/>
+            <button class="search" id="search" ><i class="fa fa-search fa-2x"></i></button>
+        </form>
       </div>
+      <h1 id="tagline">Dream. Discover. Explore.</h1>
+       <img src="/Images/boat.png" alt="Boat" id="boat"> 
       <section class="about">
         <h1>About Us</h1>
         <img src="/Images/working.gif" alt="Working On It">
